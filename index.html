@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaeMae · Andrea Mae C. Lalong-Isip — IT Portfolio 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Full-HD Cursor Interactive Canvas -->
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-overlay" aria-hidden="true"></div>
+
+  <!-- Custom Cursor Aura -->
+  <div id="pointer-aura" aria-hidden="true"></div>
+  <div id="pointer-dot" aria-hidden="true"></div>
+
+  <!-- Floating Left Vertical Sidebar (Desktop) & Top Mobile Bar -->
+  <aside class="side-rail" aria-label="Primary Navigation">
+    <a href="#top" class="rail-brand" title="Andrea Mae C. Lalong-Isip">
+      <span class="rail-monogram">AM</span>
+      <span class="rail-year">'26</span>
+    </a>
+
+    <nav class="rail-nav">
+      <a href="#hero" class="rail-link active" data-num="00">HOME</a>
+      <a href="#intro" class="rail-link" data-num="01">INTRO</a>
+      <a href="#toolkit" class="rail-link" data-num="02">SKILLS</a>
+      <a href="#milestones" class="rail-link" data-num="03">CERTS</a>
+      <a href="#hobbies" class="rail-link" data-num="04">HOBBIES</a>
+      <a href="#connect" class="rail-link" data-num="06">HELLO</a>
+    </nav>
+
+    <div class="rail-status" title="Open to learning & opportunities">
+      <span class="live-beacon"></span>
+      <span>LEARN</span>
+    </div>
+  </aside>
+
+  <!-- Floating Interactive 4-Effect Dock -->
+  <div class="fx-dock" role="toolbar" aria-label="Interactive Background Modes">
+    <span class="dock-tag">CURSOR FX</span>
+    <button class="dock-btn active" data-mode="aurora" type="button">
+      <span class="swatch s1"></span>1 · Aurora Silk
+    </button>
+    <button class="dock-btn" data-mode="constellation" type="button">
+      <span class="swatch s2"></span>2 · Starlight Grid
+    </button>
+    <button class="dock-btn" data-mode="prism" type="button">
+      <span class="swatch s3"></span>3 · Prism Ripple
+    </button>
+    <button class="dock-btn" data-mode="binary" type="button">
+      <span class="swatch s4"></span>4 · Rose Code Rain
+    </button>
+  </div>
+
+  <div id="top" class="page-wrapper">
+    <!-- HERO BENTO -->
+    <header id="hero" class="hero-bento reveal">
+      <div class="bento-card hero-main">
+        <div class="top-meta">
+          <span class="pill-tag">MY PERSONAL PORTFOLIO · 2026</span>
+          <span class="pill-available">● AVAILABLE TO LEARN</span>
+        </div>
+
+        <h1 class="display-heading">
+          Curious mind.<br />
+          <span class="accent-gradient">Creative spirit.</span><br />
+          Always learning.
+        </h1>
+
+        <p class="intro-lead">
+          Hi, I’M <strong>ANDREA MAE C. LALONG-ISIP</strong> — a <strong>1ST YEAR INFORMATION TECHNOLOGY</strong> student at <strong>MINDORO STATE UNIVERSITY</strong>. I enjoy exploring new ideas, building skills, and turning what I learn into something meaningful.
+        </p>
+
+        <div class="cta-row">
+          <a href="#milestones" class="btn-solid">Explore my work ↗</a>
+          <a href="#intro" class="btn-outline">Get to know me</a>
+        </div>
+
+        <div class="marquee-strip">
+          <span>PROFILE / 01</span>
+          <span>•</span>
+          <span>INFORMATION TECHNOLOGY ↗</span>
+          <span>•</span>
+          <span>✳ CREATIVE THINKER</span>
+          <span>•</span>
+          <span>01 LEARN · CREATE · GROW</span>
+        </div>
+      </div>
+
+      <div class="bento-card hero-portrait-card">
+        <div class="portrait-header">
+          <span class="code-label">STUDENT // MINSU-2026</span>
+          <span class="code-label">01 — 07</span>
+        </div>
+
+        <div class="portrait-box">
+          <img src="profile.jpg" alt="Andrea Mae C. Lalong-Isip" class="portrait-img" />
+          <div class="portrait-caption">
+            <strong>ANDREA MAE C. LALONG-ISIP</strong>
+            <span>Nickname: MaeMae · BSIT 1st Year</span>
+          </div>
+        </div>
+
+        <div class="portrait-footer">
+          <span>OPEN TO LEARNING &amp; OPPORTUNITIES</span>
+          <a href="#intro" class="scroll-cue">SCROLL ↓</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 01 / A LITTLE INTRODUCTION -->
+    <section id="intro" class="content-section reveal">
+      <div class="section-head">
+        <span class="kicker">01 / A LITTLE INTRODUCTION</span>
+        <h2>More than a student. <span class="soft-text">A work in progress.</span></h2>
+      </div>
+
+      <div class="split-intro">
+        <div class="bento-card story-panel">
+          <span class="big-quote">“</span>
+          <blockquote>
+            I am a cheerful and happy person who loves making people smile and spreading positive energy. I enjoy learning new things, especially those that can help me improve my skills and achieve my dreams. My goal is to become an engineer someday. What motivates me the most is my parents and all the sacrifices they have made for me. I want to give back to them and repay their love, hard work, and sacrifices by making them proud and giving them a better life. I hope to become a successful, responsible, and hardworking person who never gives up on my dreams.
+          </blockquote>
+
+          <div class="about-note">
+            <h3>A FEW WORDS ABOUT ME</h3>
+            <p>
+              I'm currently studying <strong>INFORMATION TECHNOLOGY</strong> as a <strong>1ST YEAR</strong> student at <strong>MINDORO STATE UNIVERSITY</strong>. This portfolio is a snapshot of my learning journey — the skills I'm developing, the milestones I've reached, and the goals I'm working toward.
+            </p>
+          </div>
+        </div>
+
+        <div class="bento-card profile-specs">
+          <div class="spec-grid">
+            <div class="spec-cell">
+              <span class="spec-key">FULL NAME</span>
+              <span class="spec-val">ANDREA MAE C. LALONG-ISIP</span>
+            </div>
+            <div class="spec-cell">
+              <span class="spec-key">NICKNAME</span>
+              <span class="spec-val">MAEMAE</span>
+            </div>
+            <div class="spec-cell">
+              <span class="spec-key">EDUCATION</span>
+              <span class="spec-val">1ST YEAR</span>
+            </div>
+            <div class="spec-cell">
+              <span class="spec-key">SCHOOL</span>
+              <span class="spec-val">MINDORO STATE UNIVERSITY</span>
+            </div>
+            <div class="spec-cell">
+              <span class="spec-key">COURSE</span>
+              <span class="spec-val">INFORMATION TECHNOLOGY</span>
+            </div>
+            <div class="spec-cell">
+              <span class="spec-key">LOCATION</span>
+              <span class="spec-val">CALAPAN CITY, ORIENTAL MINDORO</span>
+            </div>
+          </div>
+
+          <a href="#connect" class="btn-solid block-btn">Connect with me ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 / WHAT I'M BUILDING -->
+    <section id="toolkit" class="content-section reveal">
+      <div class="section-head">
+        <span class="kicker">02 / WHAT I'M BUILDING</span>
+        <h2>Skills that grow <span class="soft-text">with every experience.</span></h2>
+        <p class="section-sub">A mix of technical knowledge and everyday strengths developed through coursework and hands-on practice.</p>
+      </div>
+
+      <div class="toolkit-bento">
+        <div class="bento-card">
+          <div class="card-badge">⌘ THE TOOLKIT</div>
+          <h3>Technical Skills</h3>
+          <div class="tech-tags">
+            <div class="tech-row"><span class="dot-accent"></span>Basic Computer Skills</div>
+            <div class="tech-row"><span class="dot-accent"></span>Programming (C# &amp; C Language)</div>
+            <div class="tech-row"><span class="dot-accent"></span>Microsoft Word</div>
+            <div class="tech-row"><span class="dot-accent"></span>Microsoft PowerPoint</div>
+            <div class="tech-row"><span class="dot-accent"></span>Problem-Solving and Troubleshooting</div>
+          </div>
+        </div>
+
+        <div class="bento-card">
+          <div class="card-badge">✳ HOW I WORK</div>
+          <h3>Mindset &amp; Soft Skills</h3>
+          <p class="ethic-copy">
+            I work with a positive attitude and always try my best in everything I do. I am willing to learn new things, work with others, and improve my skills. I believe that patience, teamwork, and determination help me achieve my goals.
+          </p>
+          <div class="soft-chips">
+            <span>Hardworking</span>
+            <span>Responsible</span>
+            <span>Positive Attitude</span>
+            <span>Teamwork</span>
+            <span>Good Communication</span>
+            <span>Willingness to Learn</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="growth-quote">
+        Good work grows from curiosity, practice, communication, and a willingness to improve.
+      </div>
+    </section>
+
+    <!-- 03 / MILESTONES -->
+    <section id="milestones" class="content-section reveal">
+      <div class="section-head">
+        <span class="kicker">03 / MILESTONES</span>
+        <h2>Small wins. <span class="soft-text">Meaningful progress.</span></h2>
+        <p class="section-sub">Verified CodeChum certificates earned at Mindoro State University. Select a card to inspect its details and verification link.</p>
+      </div>
+
+      <div class="certs-row">
+        <button class="bento-card cert-tile" type="button" data-cert="csharp">
+          <div class="cert-tile-head">
+            <span class="cert-num">01 / CERTIFICATE ✳</span>
+            <span class="score-pill">1285 / 1315</span>
+          </div>
+          <h3>C# CERTIFICATE · Click to view ↗</h3>
+          <p><strong>C# Programming 1</strong> in 1F3-ITC112-CSharp · CodeChum Certificate of Completion</p>
+          <div class="cert-tile-foot">
+            <span>Issued: Nov. 10, 2026</span>
+            <span>Cert ID: #32736</span>
+          </div>
+        </button>
+
+        <button class="bento-card cert-tile" type="button" data-cert="clang">
+          <div class="cert-tile-head">
+            <span class="cert-num">02 / CERTIFICATE ◇</span>
+            <span class="score-pill">1349 / 1365</span>
+          </div>
+          <h3>C LANGUAGE CERTIFICATE · Click to view ↗</h3>
+          <p><strong>C Programming 1</strong> in 1F3-ITC112 · CodeChum Certificate of Completion</p>
+          <div class="cert-tile-foot">
+            <span>Issued: Nov. 2, 2026</span>
+            <span>Cert ID: #32063</span>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <!-- 04 / HOBBIES & INTERESTS -->
+    <section id="hobbies" class="content-section reveal">
+      <div class="section-head">
+        <span class="kicker">04 / BEYOND THE SCREEN</span>
+        <h2>My Hobbies &amp; Interests</h2>
+      </div>
+
+      <div class="hobby-mosaic">
+        <article class="bento-card hobby-tile">
+          <span class="h-num">01</span>
+          <h3>Eating My Favorite Food</h3>
+          <p>I enjoy eating delicious food, especially my favorites.</p>
+        </article>
+
+        <article class="bento-card hobby-tile">
+          <span class="h-num">02</span>
+          <h3>Nature Trips</h3>
+          <p>I love exploring beautiful places and enjoying nature.</p>
+        </article>
+
+        <article class="bento-card hobby-tile">
+          <span class="h-num">03</span>
+          <h3>Swimming</h3>
+          <p>I enjoy swimming because it is fun and relaxing.</p>
+        </article>
+
+        <article class="bento-card hobby-tile">
+          <span class="h-num">04</span>
+          <h3>Online Gaming</h3>
+          <p>I like playing online games during my free time.</p>
+        </article>
+
+        <article class="bento-card hobby-tile">
+          <span class="h-num">05</span>
+          <h3>Bonding with Friends</h3>
+          <p>I enjoy spending quality time and making memories with my friends.</p>
+        </article>
+
+        <article class="bento-card hobby-tile">
+          <span class="h-num">06</span>
+          <h3>Watching Anime</h3>
+          <p>I love watching anime because I enjoy its stories, characters, and adventures.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 06 / SAY HELLO -->
+    <section id="connect" class="content-section reveal">
+      <div class="bento-card connect-banner">
+        <div class="connect-left">
+          <span class="kicker">06 / SAY HELLO</span>
+          <h2>Have an idea? Let's connect!</h2>
+          <p>
+            I'm always happy to meet new people, share experiences, learn new things, and build friendships. I am open to new opportunities and exciting experiences.
+          </p>
+        </div>
+
+        <div class="connect-right">
+          <div class="contact-item">
+            <span class="spec-key">EMAIL ME AT</span>
+            <a href="mailto:lalongisipandreamae@gmail.com" class="mail-anchor">lalongisipandreamae@gmail.com ↗</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="spec-key">BASED IN</span>
+            <span class="spec-val">CALAPAN CITY, ORIENTAL MINDORO</span>
+          </div>
+
+          <a href="mailto:lalongisipandreamae@gmail.com" class="btn-solid block-btn">Send an Email ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bottom-bar">
+      <span><strong>MaeMae.yourportfolio</strong> · DESIGNED TO GROW · © 2026 ANDREA MAE C. LALONG-ISIP</span>
+      <a href="#top" class="top-jump">BACK TO TOP ↑</a>
+    </footer>
+  </div>
+
+  <!-- Certificate Lightbox Modal -->
+  <div id="cert-modal" class="cert-modal" aria-hidden="true" role="dialog" aria-labelledby="c-title">
+    <div class="modal-dim" id="modal-dim"></div>
+    <div class="modal-sheet">
+      <button type="button" class="close-x" id="close-x" aria-label="Close modal">✕</button>
+      <div class="cert-paper">
+        <div class="paper-top">
+          <span class="verified-chip">CODECHUM VERIFIED</span>
+          <span id="c-date" class="code-label">Date issued: Nov. 10, 2026</span>
+        </div>
+        <div class="paper-kicker">CERTIFICATE OF COMPLETION</div>
+        <h3 id="c-title" class="paper-course">C# Programming 1</h3>
+        <p class="paper-sub">Awarded to</p>
+        <div class="paper-name">Andrea Mae Lalongisip</div>
+        <p id="c-body" class="paper-desc">
+          in 1F3-ITC112-CSharp with a total score of 1285/1315.
+        </p>
+        <div class="paper-foot">
+          <span id="c-id" class="code-label">Mindoro State University · #32736</span>
+          <a id="c-link" href="https://minsu.codechum.com/certificates/32736" target="_blank" rel="noopener noreferrer" class="btn-solid">
+            Verify on CodeChum ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
